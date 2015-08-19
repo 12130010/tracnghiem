@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context="com.clbtinhoc.tracnghiem.HienThiCauHoiFragment">
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_nopbai"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="40dp"-->
+        <!--android:background="@drawable/shape_effects"-->
+        <!--android:text="Nộp bài"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="20dp"/>-->
+    <RelativeLayout
+        android:background="@drawable/border_cauhoi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:background="@drawable/shape_effects_time"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/tv_hienthitime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian còn lại: "
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27:15:06"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:inputType="time"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:weightSum="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:id="@+id/tv_socau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Câu 1"
+            android:textColor="#808080"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_cauhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Để khai báo một biến kiểu số nguyên ta dùng kiểu dữ liệu nào?"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.37" />
+
+        <RadioGroup
+            android:id="@+id/rgOpinion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="float"
+                    android:textColor="@drawable/rbtn_textcolor_selector"
+                    android:textSize="22dp"
+                    android:background="@drawable/rbtn_selector"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="double"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp"
+                    android:checked="true"
+                    android:buttonTint="#ffffff"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="String"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp"
+                    android:buttonTint="#ffffff"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="int"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp"
+                    android:buttonTint="#ffffff"
+                    />
+
+            </LinearLayout>
+        </RadioGroup>
+    </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton"
+            android:layout_centerVertical="true"
+            android:src="@drawable/left"
+            android:layout_alignParentLeft="true"
+            android:background="#000000"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageButton1"
+            android:layout_centerVertical="true"
+            android:src="@drawable/right"
+            android:layout_alignParentRight="true"
+            android:background="#000000"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

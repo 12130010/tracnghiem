@@ -1,0 +1,248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context="com.tuyet.googlemap.QuenMatKhauActivity">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logoexam"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"/>
+    <RelativeLayout
+        android:id="@+id/relayRight"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/header"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/line_ketqua"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="KẾT QUẢ THI CỦA BẠN"
+            android:textColor="#ffffff"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dinhdang"
+        android:orientation="vertical"
+        android:layout_below="@+id/line_ketqua"
+        android:id="@+id/ndtt"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Môn thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvTenMonThi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHUYÊN ĐỀ JAVA"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Học kì: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvHocKi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="II"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvThoiGianThi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 phút"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Ngày thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvNgayThi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/05/2016"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:inputType="date"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Phòng: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvPhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R306"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvHoVaTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Hải Phong"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Mã số sinh viên: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tvMSSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="12130045"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng điểm: "
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tvSoCau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30/35 câu"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvDiemThi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.25 điểm"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

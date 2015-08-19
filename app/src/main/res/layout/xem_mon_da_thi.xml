@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.clbtinhoc.tracnghiem.XemTatCaActivity">
+    <TextView
+        android:id="@+id/tv_dsmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Danh sách các môn đã thi học kỳ II năm 2015"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_cdjava"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtTaiKhoan"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_effects"
+        android:text="Chuyên đề java"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+       />
+
+    <Button
+        android:id="@+id/btn_kngt"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtTaiKhoan"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_boder"
+        android:text="Kỹ năng giao tiếp"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/bnt_cdw"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtTaiKhoan"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_effects"
+        android:text="Chuyên đề web"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+         />
+
+    <Button
+        android:id="@+id/bnt_hdhnc"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtTaiKhoan"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_effects"
+        android:text="Hệ điều hành nâng cao"
+        android:textColor="#ffffff"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/btn_av"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtTaiKhoan"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_boder"
+        android:text="Anh văn"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+</LinearLayout>

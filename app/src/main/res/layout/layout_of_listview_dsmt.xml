@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.clbtinhoc.tracnghiem.LoadDSMTActivity"
+    android:background="@drawable/background">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableRow
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:id="@+id/tvMonThi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Lập trình mạng"
+                    android:layout_weight="1"
+                    android:ems="8"
+                    android:paddingLeft="3dp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/cell_shape" />
+
+                <TextView
+                    android:id="@+id/tvNgayThi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:ems="8"
+                    android:text="09/10/2015"
+                    android:inputType="date"
+                    android:layout_weight="1"
+                    android:paddingLeft="3dp"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/cell_shape"/>
+
+                <TextView
+                    android:id="@+id/tvThoiGianThi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="120 phút"
+                    android:inputType="time"
+                    android:paddingLeft="3dp"
+                    android:ems="7"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/cell_shape"/>
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

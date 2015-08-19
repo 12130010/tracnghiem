@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="clbtinhoc.tracnghiem.QuenMatKhauActivity"
+    android:gravity="center_horizontal|center_vertical">
+
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/logoexam"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"/>
+
+    <LinearLayout
+        android:id="@+id/libe_thongtin"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/header"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_thongtin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="THÔNG TIN VỀ MÔN THI"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="430dp"
+        android:layout_height="200dp"
+        android:background="@drawable/dinhdang"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/libe_thongtin"
+        android:layout_toRightOf="@+id/header"
+        android:id="@+id/ndtt"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Môn thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_tenmonthi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHUYÊN ĐỀ JAVA"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Học kì: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_hocki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="II"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Thời gian thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_thoigianthi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 phút"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Ngày thi: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_ngaythi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/05/2016"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:inputType="date"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Phòng: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_phong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R306"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_hovaten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Hải Phong"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Mã số sinh viên: "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/tv_mssv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="12130045"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_effects"
+        android:text="Bắt đầu"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/ndtt"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

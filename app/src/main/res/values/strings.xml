@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GoogleMap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment_gg_map">Map</string>
+    <string name="title_activity_audio_video">AudioVideoActivity</string>
+
+    <string name="local_video">Play Video from Local File</string>
+    <string name="res_video">Play Video from Resources</string>
+    <string name="stream_video">Play Streaming Video</string>
+    <string name="local_audio">Play Audio from Local File</string>
+    <string name="res_audio">Play Audio from Resources</string>
+    <string name="stream_audio">Play Streaming Audio</string>
+    <string name="title_activity_my_audio_player">MyAudioPlayer</string>
+    <string name="title_activity_my_video_player">MyVideoPlayer</string>
+    <string name="title_activity_trac_nghiem_online">TracNghiemOnline</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="quenmatkhau"><u>Quên mật khẩu?</u></string>
+    <string name="title_activity_quen_mat_khau">QuenMatKhauActivity</string>
+    <string name="title_activity_quenmatkhau">QuenmatkhauActivity</string>
+    <string name="title_activity_xem_tat_ca">XemTatCaActivity</string>
+    <string name="title_activity_load_dsmt">LoadDSMTActivity</string>
+    <string name="title_activity_hien_thi_cau_hoi">HienThiCauHoiActivity</string>
+    <string name="title_activity_thong_tin_mon_thi">ThongTinMonThiActivity</string>
+    <string name="title_activity_ket_qua_thi">KetQuaThiActivity</string>
+    <string name="title_activity_cau_hoi">CauHoiActivity</string>
+
+
+
+    <string-array name="string_array_planets">
+        <item>Nộp bài</item>
+        <item>Xem thông tin thí sinh</item>
+    </string-array>
+    <string name="title_activity_dsmon_da_thi">DSMonDaThiActivity</string>
+    <string name="title_activity_thong_tin_ts">ThongTinTSActivity</string>
+</resources>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.clbtinhoc.tracnghiem.XemTatCaActivity"
+    android:background="@drawable/background">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logoexam"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/header"
+        android:layout_toRightOf="@+id/header">
+
+        <Button
+            android:id="@+id/btnDSMonThi"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="Xem danh sách môn thi"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtTaiKhoan"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDSMonDaThi"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="Xem danh sách các môn đã thi"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtTaiKhoan"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnTTThiSinh"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:text="Xem thông tin thí sinh"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtTaiKhoan"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
