@@ -1,23 +1,24 @@
 package clbtinhoc.tracnghiem;
 
-import android.app.Activity;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import clbtinhoc.tracnghiem.R;
 
-public class LoadDSMTActivity extends Activity {
+public class DSSVActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thong_tin_mon_thi);
+        setContentView(R.layout.activity_dssv);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_load_dsmt, menu);
+        getMenuInflater().inflate(R.menu.menu_dssv, menu);
         return true;
     }
 
@@ -29,7 +30,7 @@ public class LoadDSMTActivity extends Activity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == clbtinhoc.tracnghiem.R.id.action_settings) {
+        if (id == R.id.action_settings) {
             return true;
         }
 

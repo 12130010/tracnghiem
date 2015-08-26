@@ -12,7 +12,9 @@
             android:layout_height="140dp"
             android:src="@drawable/logoexam"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="45dp"/>
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
 
     <LinearLayout
         android:id="@+id/libe_thongtin"
@@ -20,7 +22,8 @@
         android:layout_toRightOf="@+id/header"
         android:layout_marginBottom="10dp"
         android:gravity="center_horizontal"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
 
     <TextView
         android:id="@+id/tv_thongtin"
@@ -34,7 +37,7 @@
     </LinearLayout>
     <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="430dp"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/dinhdang"
         android:orientation="vertical"
         android:gravity="center"
@@ -59,7 +62,7 @@
                 android:text="Môn thi: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_tenmonthi"
                 android:layout_width="wrap_content"
@@ -67,7 +70,7 @@
                 android:text="CHUYÊN ĐỀ JAVA"
                 android:textStyle="bold"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -80,7 +83,7 @@
                 android:text="Học kì: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_hocki"
                 android:layout_width="wrap_content"
@@ -88,7 +91,7 @@
                 android:text="II"
                 android:textStyle="bold"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -102,14 +105,14 @@
                 android:text="Thời gian thi: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_thoigianthi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50 phút"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -123,7 +126,7 @@
                 android:text="Ngày thi: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_ngaythi"
                 android:layout_width="wrap_content"
@@ -132,7 +135,7 @@
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:inputType="date"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -146,14 +149,14 @@
                 android:text="Phòng: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_phong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="R306"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -165,7 +168,7 @@
                 android:text="Họ và tên: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_hovaten"
                 android:layout_width="wrap_content"
@@ -173,7 +176,7 @@
                 android:text="Nguyễn Hải Phong"
                 android:textStyle="bold"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
 
         </LinearLayout>
         <LinearLayout
@@ -186,7 +189,7 @@
                 android:text="Mã số sinh viên: "
                 android:textColor="#000000"
                 android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tv_mssv"
                 android:layout_width="wrap_content"
@@ -194,14 +197,14 @@
                 android:layout_marginTop="5dp"
                 android:text="12130045"
                 android:textColor="#000000"
-                android:textSize="16dp" />
+                android:textSize="15dp" />
         </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
     <Button
-        android:id="@+id/btnDangNhap"
+        android:id="@+id/btnBatDau"
         android:layout_width="120dp"
         android:layout_height="40dp"
         android:background="@drawable/shape_effects"

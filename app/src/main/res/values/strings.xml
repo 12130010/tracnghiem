@@ -34,4 +34,5 @@
     </string-array>
     <string name="title_activity_dsmon_da_thi">DSMonDaThiActivity</string>
     <string name="title_activity_thong_tin_ts">ThongTinTSActivity</string>
+    <string name="title_activity_dssv">DSSVActivity</string>
 </resources>

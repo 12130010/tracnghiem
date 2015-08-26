@@ -24,6 +24,7 @@
 
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <!--
 <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
@@ -106,6 +107,11 @@
             android:name=".ThongTinTSActivity"
             android:label="@string/title_activity_thong_tin_ts"
             android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".DSSVActivity"
+            android:label="@string/title_activity_dssv"
+            android:screenOrientation="landscape">
         </activity>
     </application>
 

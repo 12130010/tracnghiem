@@ -12,7 +12,6 @@
             >
             <TableRow>
                 <TextView
-                    android:id="@+id/tv_dsmt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -31,7 +30,6 @@
                 >
                 <LinearLayout>
                     <TextView
-                        android:id="@+id/tv_monthi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20dp"
@@ -42,7 +40,6 @@
                         android:background="@drawable/cell_shape" />
 
                     <TextView
-                        android:id="@+id/tv_ngaythi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20dp"
@@ -53,7 +50,6 @@
                         android:background="@drawable/cell_shape"/>
 
                     <TextView
-                        android:id="@+id/tv_tgthi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20dp"
@@ -71,7 +67,7 @@
                 <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/lv_dsmt"
+            android:id="@+id/lvDSMonThi"
             android:choiceMode="singleChoice"
             />
         </TableRow>
